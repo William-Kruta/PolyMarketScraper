@@ -8,7 +8,7 @@ from typing import Literal
 
 from .local import EventsDB
 from .web import EventsScraper
-from helper import get_data
+from ..helper import get_data
 
 
 def get_events_data(

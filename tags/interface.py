@@ -1,6 +1,6 @@
 from .local import TagsDB
 from .web import fetch_tag_id
-from helper import get_data
+from ..helper import get_data
 
 
 def get_tag_id(

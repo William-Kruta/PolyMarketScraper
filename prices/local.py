@@ -1,4 +1,4 @@
-from database import Database
+from ..database import Database
 
 import polars as pl
 from sqlite3 import OperationalError

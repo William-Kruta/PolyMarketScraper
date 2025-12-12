@@ -1,5 +1,5 @@
 import polars as pl
-from database import Database
+from ..database import Database
 
 from sqlite3 import OperationalError
 

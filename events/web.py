@@ -3,7 +3,7 @@ import requests
 import datetime as dt
 
 import polars as pl
-from utils.dates import date_extract
+from ..utils.dates import date_extract
 
 
 class EventsScraper:

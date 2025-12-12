@@ -1,6 +1,6 @@
 from .local import PricesDB
 from .web import PricesScraper
-from helper import get_data
+from ..helper import get_data
 
 
 def get_price_data(
