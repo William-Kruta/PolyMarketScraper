@@ -79,7 +79,7 @@ data = contract.get_outcomes(verbose=True)
 
 ### General Use
 
-### Events
+###### Events
 
 Events can be accessed through the `interface`.
 
@@ -121,7 +121,7 @@ data = get_events_data(db_path, scraper_func=fetch_top_active_markets) # Get spe
 
 ```
 
-### Markets
+###### Markets
 
 Markets can be accessed through the `interface`.
 
@@ -150,9 +150,5 @@ data = get_market_id(db_path, market_id) # Get specific market.
 │ 31875    ┆ 562094    ┆ will-person-cu-win-the-2028-re… ┆ Will Person CU win the 2028 Re… ┆ … ┆ 2025-07-11T19:44:06.497936Z ┆ null                ┆ 2028-11-07T00:00:00Z ┆ 1060 │
 └──────────┴───────────┴─────────────────────────────────┴─────────────────────────────────┴───┴─────────────────────────────┴─────────────────────┴──────────────────────┴──────┘
 
-
-```
-
-```
 
 ```
