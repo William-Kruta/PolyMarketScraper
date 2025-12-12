@@ -1,7 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "polymarketscraper"
 version = "0.1.0"
-description = "Add your description here"
+description = "Scrape events and markets from PolyMarket"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+authors = [
+  {name = "William Kruta", email = "wjkruta@gmail.com"}
+]
+dependencies = [
+    "pandas", "polars", "requests"
+]
+
+# Optional: This automatically finds your source code
+[tool.setuptools.packages.find]
+where = ["."]  # See "Directory Structure" below
+include = ["polymarketscraper*"]
