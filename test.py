@@ -23,10 +23,11 @@ from events.contract import Contract
 # print(market_data["prices"])
 # exit()
 DB_PATH = "events.db"
-contract = Contract("", "fed-decision-in-january", DB_PATH)
-# contract.download_all()
+# contract = Contract("", "fed-decision-in-january", DB_PATH)
+# # contract.download_all()
 
-data = contract.get_market_data()
+# data = contract.get_market_data()
+data = get_markets_data(DB_PATH)
 
 print(f"Data: {data}")
 # clob = contract.get_clob_token_ids()
